@@ -1,0 +1,18 @@
+.App{
+    background-color: #e5eaef;
+}
+.tool{
+    
+    border-top-left-radius: 35px;
+    /* height: 100vh; */
+}
+.sidebar{
+   width:80px;
+   background-color: #0B3866;
+}
+
+
+body {
+    height: 100vh;
+    background-color: #E9E9E9;
+}

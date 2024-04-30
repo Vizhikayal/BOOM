@@ -1,0 +1,85 @@
+.Form{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .Elements{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+        h2{
+         margin-top: 40px;
+         margin-right: 90px;
+        }
+        p{
+            margin-right: 110px;
+        }
+     }
+}
+.image{
+    padding-top: 30px;
+}
+
+
+  
+  .form-page input {
+    padding: 8px;
+     margin-top: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    height:35px;
+  }
+  .page{
+    display: flex;
+    flex-direction: column;
+    input{
+        width:300px;
+        border-radius: 8px;
+        height:35px;
+    }
+  }
+  .password-input-container {
+    position: relative;
+  }
+  
+  .password-toggle-button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  .List{
+    width:300px;
+    height:30px;
+  }
+  
+  .btn {
+    
+    padding: 4px;
+    background: #fe7720;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    width:300px;
+    height:30px;
+  }
+  
+  .sign-up {
+    margin-top: 20px;
+    p{
+        margin-left: 90px;
+        size:16px;
+    }
+  }
+  .Login{
+    margin-top: 30px;
+    margin-left: 80px;
+  }

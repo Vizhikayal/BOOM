@@ -1,0 +1,151 @@
+.label{
+  // margin: 30px;
+  // border: 1px solid white;
+  margin: 0 20px 0 100px;
+  
+}
+.pagination{
+  background-color: none;
+  margin-left: 1175px;
+  bottom:10px;
+  position: fixed;
+  border: none;
+  .primary_btn{
+    border: none;
+  }
+  .secondary_button{
+    border: none;
+    gap:10px;
+  }
+  .active {
+    background-color: #FE7720;
+    color: #fff; 
+    border: 1px solid #FE7720; 
+     border-radius: 50%;
+     width:30px;
+     height:30px;
+  }
+  .pagination button:hover {
+    background-color: #f0f0f0; 
+    color: #FE7720; 
+    border: 1px solid #ccc;
+    // border-radius: 50%; 
+  }
+  
+}
+.input{
+  position:relative;
+
+  img{
+    position:absolute;
+    top: 5px;
+    left:3px;
+  }
+  input{
+    padding-left: 20px;
+  }
+}
+
+.icons{
+  border: none;
+  margin-left: 5px;
+}
+.iconadd{
+  // margin-inline-start: auto;
+  // margin-top: 350px;
+  // margin-right: 20px;
+  cursor: pointer;
+  position: fixed;
+  bottom:25px;
+  right:10px;
+}
+.export{
+  width:100px;
+    height:30px;
+    border-radius: 12px;
+    margin-right: 20px;
+    background-color:white;
+    color:#FE7720;
+    border:1px solid #FE7720;
+}
+.table-secondary{
+  text-align: center;
+.Name{
+  height: 50px;
+  width:200px;
+  text-align: center;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.Number{
+  height: 50px;
+  width:150px;
+  text-align: center;
+  border: none;
+}
+.Mail{
+  height: 50px;
+  width:250px;
+  text-align:center;
+  border: none;
+}
+.Country{
+  height: 50px;
+  width:150px;
+  text-align:center;
+  border: none;
+}
+.State{
+  height: 50px;
+  width:150px;
+  text-align:center;
+  border: none;
+}
+.Action{
+  height: 50px;
+  width:150px;
+  text-align:center;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+}
+.table-body{
+  text-align: center;
+  .Name{
+    height: 64px;
+    width:200px;
+    text-align: center;
+  }
+  .Number{
+    height: 64px;
+    width:150px;
+    text-align: center;
+  }
+  .Mail{
+    height: 64px;
+    width:250px;
+    text-align:center;
+  }
+  // .table-secondary{
+  //   text-align: center;
+  // }
+  .Country{
+    height: 64px;
+    width:150px;
+    text-align:center;
+  }
+  .State{
+    height: 64px;
+    width:150px;
+    text-align:center;
+  }
+  .Action{
+    height: 64px;
+    width:150px;
+    text-align:center;
+    border: none;
+  }
+
+}

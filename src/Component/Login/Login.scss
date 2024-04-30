@@ -1,0 +1,43 @@
+input{
+    width:200px;
+    height:40px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.login{
+    width:240px;
+    height:60px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: #FE7720;
+    color:white;
+    border: 1px solid #FE7720;
+    text-align: center;
+}
+// .body-content{
+// margin-left: 630px;
+// }
+.para{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.Form{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .elements{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        h4{
+         margin-top: 80px;
+         margin-right: 120px;
+        }
+        p{
+            margin-right: 120px;
+        }  
+     }
+}
